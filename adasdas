@@ -1,0 +1,29 @@
+[33mcommit e79aece75b7a18a020fe964a486e5f2198ee1747[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Jonathan Ng <jonathan.ng@stonybrook.edu>
+Date:   Wed Jun 2 01:28:42 2021 -0400
+
+    set up index.html
+
+[33mcommit d7886a10456fef5d18c62b48059d5ba09c75dcbc[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jonathan Ng <jonathan.ng@stonybrook.edu>
+Date:   Wed Jun 2 01:08:56 2021 -0400
+
+    updated README.md
+
+[33mcommit 6e0d420fa236799cde90f7550c6d9ba48b17f865[m
+Author: Jonathan Ng <jonathan.ng@stonybrook.edu>
+Date:   Wed Jun 2 01:00:48 2021 -0400
+
+    removed hello_world.txt
+
+[33mcommit 2535aad05c10cea3ed0a4d75958c44a1e57deb35[m
+Author: Jonathan Ng <jonathan.ng@stonybrook.edu>
+Date:   Wed May 26 20:13:12 2021 -0400
+
+    Add hello_world.txt edit README.md
+
+[33mcommit 114ea3335fe00866ae25a0601a95a60173e07adc[m
+Author: Jonathan Ng <jonathan.ng@stonybrook.edu>
+Date:   Wed May 26 20:10:00 2021 -0400
+
+    Added README.md
