@@ -1,1 +1,1 @@
-This is Jonathan's first git project!
+6/2/2021: Beginning of first HTML/CSS project designed to recreate the Google Homepage from scratch.
