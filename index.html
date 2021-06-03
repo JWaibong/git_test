@@ -1,6 +1,52 @@
 <!DOCTYPE html>
 <style>
-
+    nav{
+        display:grid;
+        height: 50px;
+        background-color: white;
+        font-size:14px;
+        grid-gap: 10px;
+        grid-template-areas: 
+        "left middle middle middle middle middle middle right";
+        align-items: center;
+        justify-items: center;
+        }
+    .nav-bar-left{
+        display: grid;
+        grid-area: left;
+        grid-template-columns: 100px 100px;
+        text-align:center;
+        padding-bottom: 15px;
+    }
+    .nav-bar-right{
+        padding-bottom: 0px;
+        display: grid;
+        grid-area: right;        
+        grid-template-columns: 100px 100px 100px 100px;
+        text-align:right;
+    }
+    .link{
+        color:rgb(34,34,34);
+        text-decoration: none;
+    }
+    #About-link:hover{
+        text-decoration: underline;
+    }
+    #Store-link:hover{
+        text-decoration: underline;
+    }
+    #Gmail-link:hover{
+        text-decoration: underline;
+    }
+    #Images-link:hover{
+        text-decoration: underline;
+    }
+    #Apps-link-img{
+        
+    }
+    #Sign-in-link:hover{
+        text-decoration: underline;
+    }
 
 
 
@@ -10,7 +56,49 @@
         <meta charset="UTF-8">
         <title> Google </title>
     </head>
+<header>
+    <nav>
+        <div class="nav-bar-left">
+            <div class="About">
+    
+                <a id="About-link" class="link" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" target="_blank"> 
+                    About</a>
+            </div>
+            <div class="Store">
+                <a id="Store-link" class="link" href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"> 
+                    Store
+                </a>
+            </div>
+        </div>
+        <div class="nav-bar-right">
+            <div class="Gmail">
+                <a id="Gmail-link" class="link" href="https://mail.google.com/"> 
+                    Gmail
+                </a>
+            </div>
+            <div class="Images">
+                <a id="Images-link" class="link" href="https://www.google.com/imghp?hl=en&ogbl"> 
+                    Images
+                </a>
+            </div>
+            <div class="Apps">
+                <a id="Apps-link" class="link" href=""> 
+                    <img id="Apps-link-img"src="outline_apps_black_24dp.png">
+                </a>
+            </div>
+            <div class="Sign-in">
+                <a id="Sign-in-link" class="link" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/"> 
+                    Sign-in
+                </a>
+            </div>
+        </div>
+
+    </nav>
+</header>
 <body>
-    <p> hi2 </p>
+    <h1>
+        asdfd
+    </h1>
+
 </body>
 </html>
