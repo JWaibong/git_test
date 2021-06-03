@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 <style>
     nav{
         display:grid;
         height: 50px;
         background-color: white;
         font-size:14px;
+        font-family: Roboto,arial,sans-serif;
         grid-gap: 10px;
         grid-template-areas: 
         "left middle middle middle middle middle middle right";
@@ -47,6 +49,86 @@
     #Sign-in-link:hover{
         text-decoration: underline;
     }
+    h1{
+        display: grid;
+        grid-area: 1fr;
+        justify-items: center;
+    }
+    #Google{
+        position:relative;
+        bottom: 19px;
+    }
+    #row-containing-search-bar{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Search-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 44px;
+        width: 559px;
+        border-radius: 24px;
+        border-style: solid;
+        border-color: rgb(223, 225, 229);
+        border-width: 1px;
+    }
+    #search-icon{
+        position: relative;
+        left: 5px;
+    }
+    #search{
+        height:34px;
+        width: 500px;
+        border-color: transparent;
+        border: none;
+    }
+    #search:focus{
+        background-color: transparent;
+        background: transparent;
+        outline-width: 0;
+    }
+    #mic-icon{
+        position:relative;
+        right: 5px;
+    }
+    .button{
+        background-color:rgb(248, 249, 250);
+        border-radius: 4px;
+    }
+    #buttons{
+        display: flex;
+        justify-content: center;
+        position:relative;
+        top: 5px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        float:left;
+    }
+    li a {
+        font-family: Roboto,arial,sans-serif;
+        font-size:14px;
+        display: block;
+        color:rgb(34,34,34);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+li a:hover{
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 250px;
+}
+
 
 
 
@@ -82,7 +164,7 @@
                 </a>
             </div>
             <div class="Apps">
-                <a id="Apps-link" class="link" href=""> 
+                <a id="Apps-link" class="link" href="https://about.google/intl/en/products/"> 
                     <img id="Apps-link-img"src="outline_apps_black_24dp.png">
                 </a>
             </div>
@@ -92,13 +174,51 @@
                 </a>
             </div>
         </div>
-
     </nav>
+
 </header>
 <body>
-    <h1>
-        asdfd
-    </h1>
+    <main>
+        <h1>
+            <a href="https://google.com" >
+                <img id="Google" src="googlelogo_color_272x92dp.png", alt="Google Logo">
+            </a>
+        </h1>
+        <div id="row-containing-search-bar"> 
+            <div id="Search-bar">
+                <img id="search-icon" src="outline_search_black_24dp.png">
+                <input type="search" id="search" name="search">
+                <img id="mic-icon" src="outline_keyboard_voice_black_24dp.png">
+            </div>
+        </div>
+       <div id="buttons">
+        <input class="button" type="button" value="Google Search">
+        <input class="button" type="button" value="I'm Feeling Lucky">
+       </div>
+    </main>
+   <footer>
+       <ul>
+        <li>
+            <a href="#"> Advertising </a>
+        </li>
+        <li>
+            <a href="#"> Business</a>
+        </li>
+        <li>
+            <a href="#"> How Search Works </a>
+        </li>
+        <li>
+            <a href="#"> Privacy </a>
+        </li>
+        <li>
+            <a href="#"> Terms </a>
+        </li>
+        <li>
+            <a href="#"> Settings </a>
+        </li>
+
+       </ul>
+   </footer>
 
 </body>
 </html>
